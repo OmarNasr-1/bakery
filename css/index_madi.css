@@ -1,0 +1,288 @@
+
+
+@media screen and (min-width : 400px) and (max-width:767px)
+{
+    .home  
+    {
+        width: 100%;
+    }
+    .home .nav{
+        width:100%;
+    }
+    .home .nav  .logo
+    {
+        
+        width: 20%;
+    }
+    .home .nav  img
+
+{
+    margin: 3px;
+    width: 75%;
+}
+
+.home .nav .links{
+        margin-top: 3px;
+    float: right;
+    width: 80%;
+    
+}  
+
+.home .links ul li{
+    
+    padding: 2px;
+  
+    
+}
+.home .links ul li a{
+    font-size: 15px;
+    
+    padding: 1px;
+    
+}
+
+
+
+    .home .home-content{
+        margin-top: 100px;
+        width: 90%;
+text-align: center;
+    }
+    .home .home-content p{
+        font-size: 10px;
+        padding-bottom: 1px;
+        padding-left: 50px;
+        
+    }
+    .home .home-content h1{
+        font-size: 25px;
+        padding-top: 1px;
+        padding-left: 50px;
+        line-height: 1.1rem;
+
+        
+    }
+    .home .home-content .p2{
+        font-size: 15px;
+        padding-top: 1px;
+        padding-left: 50px;
+        margin-bottom: 5px;
+        line-height: 1.1rem;
+    }
+    .home .home-content .btn1{
+                
+        font-size: 10px;
+        margin-bottom: 1px;
+        padding: 10px;
+        margin-left: 55px;
+
+
+    }
+    .home .home-content .btn2{
+        font-size: 10px;
+        padding: 10px;
+
+    }
+    .home .scrolldwon{
+        width: 5%;
+        height: 7%;
+      text-align: center;
+
+        }
+
+        .secound{
+            width: 90%;
+        }
+        .secound .secound-img{
+            margin-left:25px;
+            width: 100%;
+
+
+        }
+        .secound .content-secound{
+            margin-left: 10px;
+            width: auto;
+
+        }
+        .third{
+            width: 100%;
+            
+         
+        }
+        .third .content-third{
+            width: auto;
+          
+           
+        }
+        .third .img-third img{
+            width:80%;
+            height: 70%;
+            margin-left: 45px;
+         
+        }
+
+
+        .packing .type-1{
+            width:100%;
+            text-align: center;
+        }
+      
+        .contact .contact-content {
+            width: 70%;
+           padding-left: 20px;
+        }
+         .mapouter {
+           width: 50%;
+        }
+        .mapouter .frame{
+          width: 400px;
+          margin-left: 50px;
+        }
+      
+        .about .about-us-1{
+            width: 70%;        }
+        .about .about-special{
+            width: 70%;        }
+        .about .about-opening-hours{
+            width: 70%;
+        }
+        .about .about-contact-info{
+            width: 70%;        }
+
+            .last{
+                width: auto;
+            }
+            .last button{
+                width: 10%;
+            }
+}
+
+@media screen and (min-width : 768px) and (max-width:1024px)
+{
+    .home  
+    {
+        width: 100%;
+    }
+    .home .nav{
+        width:100%;
+    }
+    .home .nav  .logo
+    {
+        
+        width: 30%;
+    }
+    .home .nav  img
+
+{
+  
+    width: 50%;
+}
+
+.home .nav .links{
+    
+    width:70%;
+    
+}  
+
+
+.home .links ul li a{
+    font-size: 15px;
+    
+    padding: 1px;
+    
+}
+
+    .home .home-content{
+        margin-top:200px;
+       text-align: center;
+    }
+   
+        .secound{
+            width: 100%;
+            
+        }
+        .secound .secound-img{
+           width: 40%;
+           height: 35%;
+           margin-top: 130px;
+
+
+        }
+        .secound .content-secound{
+
+        width: 40%;
+    
+        }
+        .secound .content-secound .content-s-containar{
+         width: 100%;
+        
+        }
+        .secound .content-secound .content-s-containar .imgs{
+            width: 5%;
+            padding: 4px 2px 2px 5px;
+           
+           }
+        .secound .content-secound .content-s-containar .hs{
+            width: 80%;
+            margin-left: 35px;
+            
+        }
+ 
+        .third .content-third{
+          
+       width: 40%;
+          
+           
+        }
+        .third .img-third img{
+            margin-top: 170px;
+        width: 40%;
+        height: 30%;
+            
+           
+         
+        }
+
+
+        .packing .type-1{
+            width:33%;
+            text-align: center;
+        }
+        .packing .type-1 img{
+            height: 30%;
+        }
+      
+        .contact .contact-content {
+            width: 45%;
+           padding-left: 20px;
+        }
+         .mapouter {
+             margin-left: 50px;
+           width: 30%;
+        }
+        .mapouter .frame{
+          width:300px;
+        }
+      
+        .about .about-us-1{
+            width: 40%;
+        }
+        .about .about-special{
+            width: 40%;        }
+        .about .about-opening-hours{
+
+            width: 40%;   
+            
+        
+        }
+        .about .about-contact-info{
+            width: 40%;        }
+
+            .last{
+                width: auto;
+            }
+            .last button{
+                height: 4%;
+                width: 5%;
+            }
+}

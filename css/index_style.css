@@ -1,0 +1,639 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.home{
+    background-image: url(photos/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto
+}
+.home .nav
+{
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top:0;
+    
+}
+
+.nav .logo
+{
+    float: left;
+}
+.home .nav  img
+{
+    width:30%;
+    margin:15px ;
+}
+.home .nav .links
+{
+
+    float: right;
+}
+
+.home .links ul
+{
+    
+    list-style: none;
+}
+.home .links ul li
+{
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav .links ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.home .links a:hover
+{
+    color:#854d00;
+}
+.home-content{
+    
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+    
+}
+.home .home-content p{
+
+ line-height: 1.86em;
+font-size: 22px;
+margin-bottom: 5px;
+font-family: "Alegreya Sans";
+font-weight: 400;
+}
+.home .home-content .p2{
+    margin-top: 10px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+font-family: "Alegreya Sans";
+font-weight: 400;
+font-size: 23px;
+
+}
+.home .home-content h1{
+    font-family: "Alegreya";
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
+
+.home .home-content .btn1
+{
+   
+    padding: 18px 20px;
+    margin:15px 10px 15px 10px;
+    color: white;
+    border:none;
+    background-color:#8e7754;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.home .home-content .btn2
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 17px 20px ;
+    background-color:transparent;
+    color: white; 
+    font-size: 16px;
+}
+.home .home-content .btn1:hover
+{
+    color: black;
+    background-color: white;
+    
+}
+.home .home-content .btn2:hover
+{
+    color: black;
+    background-color: white;
+}
+.home .scrolldwon{
+width: 30px;
+height: 45px;
+border: white solid 2px;
+border-radius: 15px;
+margin: auto;
+margin-top: 50px;
+}
+.home .scrolldwon .dot{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.home .center-right{
+    height: 50px;
+    width: 30px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 1111111;
+    
+}
+.home .center-bottom{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 22px;
+    right: 15px;
+    background-color: gray;
+}
+.home .center-bottom h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 2222222222222222;
+}
+.clr{
+    clear: both;
+}
+  .secound{
+    
+   width: 100%;
+
+   
+    padding-top: 90px ;
+    padding-bottom: 30px;
+font-family: "Alegreya Sans";
+  }
+
+   .secound .secound-img{
+    
+    margin-left: 80px ;
+    margin-right: 50px;
+    margin-bottom: 70px;
+width: 40%;
+ height:85%;
+ float: left;
+
+
+}
+
+  .secound .content-secound{
+      margin-top: 40px;
+      width: 40%;
+  float: left;
+      line-height: 1.86em;
+font-family: "Alegreya Sans";
+font-size: 17px;
+font-weight: 400;
+color: #686868;
+
+  }
+  .secound .content-secound h1{
+    font-family: "Alegreya";
+    font-size: 1.9rem;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-bottom: 2px;
+    
+  }
+  .secound .content-secound p{
+      margin-left: 3px;
+      line-height: 1.86em;
+font-family: "Alegreya Sans";
+font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.secound .content-secound .content-s-containar{
+    margin-top: 10px;
+
+}
+.secound .content-secound .content-s-containar .imgs{
+ padding: 5px 5px 20px 2px;
+    float: left;
+}
+.secound .content-secound .content-s-containar .imgs .s-img-1{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.secound .content-secound .content-s-containar .imgs .s-img-2{
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.secound .content-secound .content-s-containar .imgs .s-img-3{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.secound .content-secound .content-s-containar .imgs .s-img-4{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.secound .content-secound .content-s-containar .hs{
+    width: 70%;
+    float: left;
+}
+.secound .content-secound .content-s-containar .hs .h5-1{
+    margin-top: 20px;
+}
+.secound .content-secound .content-s-containar .hs .h5-2{
+    margin-top: 1px;
+}
+
+
+.third{
+    
+    background-color: #f8f8f8;
+    color: #686868;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 90px ;
+    padding-bottom: 60px;
+ font-family: "Alegreya Sans";
+}
+.third .content-third{
+   float: left;
+    width: 40%;
+    text-align: left;
+    padding: 100px 20px 20px 50px;
+}
+.third .content-third h1{
+    font-family: "Alegreya";
+    font-size: 1.99rem;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.third .content-third p{
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.third .img-third img{
+    margin-left: 30px;
+    width: 45%;
+height: 80%;
+padding:10px 8px 30px 8px;
+ text-align: center;
+}
+.paking{
+    padding: 40px 50px;
+
+}
+.packing h1{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.packing p{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 17px;
+color: #888;
+
+margin: 17px auto 0;
+
+font-family: "Alegreya Sans";
+    
+}
+
+.packing .type-1
+{
+
+    width: 33%;
+    text-align: center;
+    float: left;
+    
+}
+
+.type-1 img
+{
+    width: 90%;
+    height: 45%;
+
+}
+.packing h1
+{
+    
+    font-family: "Alegreya";
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+
+.type-1 h2
+{
+    text-align: center;
+    font-family: "Alegreya";
+    font-size: 20px;
+    color: #303030;
+    margin-top: 30px;
+}
+
+
+.type-1 p
+{
+    padding: 0px 20px;
+    text-align: center;
+font-family: "Alegreya Sans";
+font-size: 17px;
+font-weight: 400;
+color: #686868;
+line-height: 1.9rem;
+padding-bottom: 90px;
+}
+.contact
+{
+    height: auto;
+    background-color: #f8f8f8;
+    color: #686868;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.contact .contact-content {
+    width: 50%;
+padding-left: 80px;
+line-height: 1.98em;
+font-size: 16px;
+float: left;
+
+}
+.contact .contact-content h1{
+    font-family: "Alegreya";
+    font-size: 50x;
+    color: #303030;
+
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+
+}
+.contact .contact-content p{
+font-size: 16px;
+margin-left: 30px;
+
+}
+.contact .contact-content .p1{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+ 
+}
+.contact_us_container{
+    padding-top: 10px;
+    padding-left: 30px;
+    float: left;
+}
+.contact_us_container .ul-contact{
+    padding-left: 20px;
+    
+}
+.contact_us_container .ul-contact li{
+    padding: 5px;
+}
+
+
+.contact .mapouter{
+    float: left;    
+
+}
+.mapouter .frame{
+    width: 500px;
+    height: 500px;
+    border: none;
+}
+.about
+{
+    width: 100%;
+    background-color:#403d38;
+    overflow: auto;
+    
+    
+}
+.about p
+{
+    color:#969696;
+    padding-bottom: 30px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+.about .about-us-1
+{
+    
+    width: 20%;
+    float: left;
+    margin: 75px 20px 10px 5px;
+}
+.about .about-us-1 h3
+{
+    padding-bottom: 18px;
+    padding-left: 15px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+}
+.about .about-special
+{
+    width: 20%;
+    float: left;
+    margin: 75px 20px;
+}
+
+
+.about .about-special h3
+{
+    padding-bottom: 18px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+}
+
+.about .about-special ul
+{
+    list-style:none;
+    color:#888;
+}
+
+.about .about-special li
+{
+padding: 5px;
+border-bottom:rgba(255, 255, 255, 0.05) solid 1px;
+line-height: 37px;
+}
+.about .about-special li:last-of-type
+{
+    border: none;
+}
+
+
+.about .about-opening-hours
+{
+    width: 20%;
+    float: left;
+    margin: 75px 20px;
+
+}
+
+
+.about .about-opening-hours ul
+{
+    list-style:none;
+    color:#888;
+}
+
+.about .about-opening-hours li
+{
+padding: 5px;
+line-height:30px;
+border-bottom:rgba(255, 255, 255, 0.05) solid 1px;
+}
+.about .about-opening-hours li:last-of-type
+{
+    border: none;
+}
+
+
+.about .about-opening-hours h3
+{
+    padding-bottom: 18px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+}
+.about .about-contact-info
+{
+    width: 20%;
+    float: left;
+    margin:75px 20px;
+
+}
+.about .about-contact-info h3
+{
+    padding-bottom: 18px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+}
+.about .about-contact-info ul
+{
+    list-style: none;
+    color:#888;
+}
+
+.about .about-contact-info li
+{
+padding: 10px;
+border-bottom:rgba(255, 255, 255, 0.05) solid 1px;
+line-height:30px;
+}
+.about .about-contact-info li:last-of-type
+{
+    
+    border: none;
+}
+.about .about-contact-info {
+    background-image: url(photos/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: center ;
+ 
+}
+
+.about .about-contact-info a
+{
+    text-decoration: none;
+    color:#888;
+}
+.about .about-contact-info a:hover
+{
+    color: white;
+}
+
+
+
+ .last{
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 70px;
+text-align: center;color: #797979;
+font-family: "Alegreya Sans";
+line-height: 1.86em;
+font-weight: 400;
+
+ }
+ .last p{
+     padding-top:18px ;
+     padding-bottom: 18px;
+ }
+.last button{
+    border: grey solid  1px;
+    border-radius: 50%;
+    width: 3%;
+    height: 5%;
+    margin: 3px;
+    background-color: grey;
+    
+}
+.last a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.new-task{
+    background-color: #353330;
+    height: 100px;
+    text-align: center;
+   
+}
+.new-task button{
+    width: 150px;
+    height: 60px;
+    border: white 2px solid;
+    border-radius: 50%;
+    transition: transform 2s ;
+}
+.new-task button:hover{
+    background-color: teal;
+    
+    transform: rotate(360deg);
+  
+
+    
+   
+}
+
+
+.new-task a{
+text-decoration: none;
+color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
